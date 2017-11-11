@@ -1,1 +1,1 @@
-alert("123");
+jQuery(document).ready(function(t){t(".header_topline-button").click(function(){t(".right-sidebar").animate({width:"240px"},100,function(){}),t(".content-wrap").show()}),t(".right_sidebar-button").click(function(){t(".right-sidebar").animate({width:"0px"},100,function(){}),t(".content-wrap").hide()}),t(".content-wrap").click(function(){t(".right-sidebar").animate({width:"0px"},100,function(){}),t(".content-wrap").hide()})});
